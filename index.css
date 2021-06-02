@@ -1,0 +1,12 @@
+* {
+  background: lightcyan;
+}
+
+li {
+  list-style-type: none;
+}
+
+input[type=checkbox]:checked + label.complete {
+  text-decoration: line-through;
+}
+
